@@ -1,0 +1,42 @@
+body > main {
+    display:list-item;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+  }
+  
+  .grid-container > div {
+    padding: 20px;
+    margin: 10px;
+  
+    text-align: center;
+  }
+  
+
+.grass {
+    background-color: #abfd7b;
+  }
+  .fire {
+    background-color: #ff8c5e;
+  }
+  .water {
+    background-color: #91ade9;
+  }
+  .normal {
+    background-color: #c9c9c9;
+  }
+  .bug {
+    background-color: #d9ec4a;
+  }
+  .poison {
+    background-color: #c490c3;
+  }
+  .electric {
+    background-color: #fff45e;
+  }
+  .ground {
+    background-color: #e6c676d5;
+  }
